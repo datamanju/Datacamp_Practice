@@ -34,6 +34,8 @@ count_test = count_vectorizer.transform(X_test)
 # Print the first 10 features of the count_vectorizer
 print(count_vectorizer.get_feature_names()[:10])
 
+
+
 #2. TfidfVectorizer for text classification
 # Import TfidfVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -52,6 +54,8 @@ print(tfidf_vectorizer.get_feature_names()[:10])
 
 # Print the first 5 vectors of the tfidf training data
 print(tfidf_train.A[:5])
+
+
 
 #3. Inspecting the vectors
 # Create the CountVectorizer DataFrame: count_df
