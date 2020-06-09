@@ -1,0 +1,35 @@
+-- print working directory
+pwd
+
+-- listing in directory
+ls /home/repl
+
+-- change directory to another relative path
+cd seasonal/
+
+-- move one directory up
+cd ..
+
+-- stay in current directory
+cd . 
+
+-- go to home directory
+cd ~
+
+-- copy files to backup
+cp seasonal/autumn.csv seasonal/winter.csv backup
+
+-- move files one line above
+mv autumn.csv winter.csv ..
+
+-- move is also used to rename files
+mv winter.csv winter.csv.bck
+
+--remove both files
+rm thesis.txt backup/thesis-2017-08.txt
+
+--remove directory once folder is empty
+rmdir people
+
+--mkdir yearly
+mkdir people/yearly/2017
