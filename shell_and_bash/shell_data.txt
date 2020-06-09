@@ -1,0 +1,20 @@
+--print files directly
+cat course.txt
+
+-- When you less a file, one page is displayed at a time; you can press spacebar to page down or type q to quit.
+-- If you give less the names of several files, you can type :n (colon and a lower-case 'n') to move to the next file, 
+-- :p to go back to the previous one, or :q to quit.
+less less seasonal/spring.csv seasonal/summer.csv
+
+--show first few lines of the file
+head seasonal/summer.csv
+
+--show first 5 lines
+head -n 5 seasonal/winter.csv
+
+--recursive listing
+ls -F -R
+
+-- show user manual on certain functions
+man tail 
+
